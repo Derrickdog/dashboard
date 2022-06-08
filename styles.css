@@ -18,18 +18,18 @@ body{
     background-color: dodgerblue;
     grid-row: 1 / 3;
     color: white;
-    padding: 1vw;
+    padding: min(15px, 1vw);
 }
 #sidebar h2{
     font-weight: 600;
-    font-size: 3vw;
-    padding: 2vw;
+    font-size: min(3vw, 2.5rem);
+    padding: 10px;
 }
 .sidelist{
     list-style-type: none;
-    font-size: 2vw;
+    font-size: min(2vw, 1.6rem);
     font-weight: 600;
-    padding: 1.5vw;
+    padding: min(1vw, 10px);
 }
 .sidelist li{
     padding: 8px;
@@ -39,9 +39,19 @@ body{
 
 /* header */
 #header{
-    background-color: pink;
+    background-color: white;
+    /* box-shadow: 10px 0 5px black; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* , 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    position: relative;
 }
+hr{
+    border: none;
+}
+
+/* main */
 #main{
-    background-color: grey;
+    background-color: #ddd;
+    background-color: white;
     grid-column-start: 2;
 }
