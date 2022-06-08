@@ -40,18 +40,38 @@ body{
 /* header */
 #header{
     background-color: white;
-    /* box-shadow: 10px 0 5px black; */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    /* , 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     position: relative;
+    /* padding: 20px 40px; */
 }
-hr{
-    border: none;
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
 }
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.searchbar, .profile, .greeting{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+
+
+
+
 
 /* main */
 #main{
-    background-color: #ddd;
-    background-color: white;
+    background-color: #eee;
     grid-column-start: 2;
 }

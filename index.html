@@ -14,20 +14,41 @@
             <h2>Dashboard</h2>
             <ul class="sidelist">
                 <li><span class="material-symbols-outlined">home</span>&nbsp Home</li>
-                <li><span class="material-symbols-outlined">check_box_outline_blank</span>&nbsp Profile</li>
-                <li><span class="material-symbols-outlined">message</span>&nbsp Message</li>
+                <li><span class="material-symbols-outlined">person</span>&nbsp Profile</li>
+                <li><span class="material-symbols-outlined">message</span>&nbsp Messages</li>
                 <li><span class="material-symbols-outlined">history</span>&nbsp History</li>
                 <li><span class="material-symbols-outlined">task</span>&nbsp Tasks</li>
             </ul>
             <ul class="sidelist">
                 <li><span class="material-symbols-outlined">settings</span>&nbsp Settings</li>
                 <li><span class="material-symbols-outlined">support</span>&nbsp Support</li>
-                <li><span class="material-symbols-outlined">privacy</span>&nbsp Privacy</li>
+                <li><span class="material-symbols-outlined">public</span>&nbsp Privacy</li>
             </ul>
         </nav>
 
         <header id="header">
-            <hr>
+            <div class="header-top">
+                <div class="searchbar">
+                    <label for="search"><span class="material-symbols-outlined">search</span></label>
+                    <input type="text" id="search" name="search">
+                </div>
+                <div class="profile">
+                    <span class="material-symbols-outlined">notifications</span>
+                    <img src="profile.png" alt="Profile picture small" width="35px">
+                    <span class="profile-name">Derrick Ryan</span>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="greeting">
+                    <img src="profile.png" alt="Profile picture large" width="60px">
+                    <span class="profile-title">Derrick Ryan (@derrickdog)</span>
+                </div>
+                <div class="buttons">
+                    <button type="button" class="btn">New</button>
+                    <button type="button" class="btn">Upload</button>
+                    <button type="button" class="btn">Share</button>
+                </div>
+            </div>
         </header>
         
 
