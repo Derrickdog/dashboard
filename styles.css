@@ -107,21 +107,46 @@ body{
     padding-top: 10px;
 }
 .projects{
-    background-color: red;
+    /* background-color: red; */
     grid-row: 1 / 3;
 }
-.announcements{
-    /* background-color: blue; */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.card-proj{
+    margin: 10px;
+    border-left: 10px solid orange;
+}
+h3{
+    padding-bottom: 5px;
+}
+h4{
+    padding-bottom: 3px;
+}
+/* .announcements{
+    background-color: blue;
 }
 .trending{
-    /* background-color: yellow; */
-}
-.card{
+    background-color: yellow;
+} */
+.card, .card-proj{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
+    /* margin: 10px; */
 }
 hr{
     margin: 15px 0;
+}
+
+.btns{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    /* width: 100%;
+    text-align: left; */
 }
