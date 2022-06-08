@@ -42,13 +42,12 @@ body{
     background-color: white;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     position: relative;
-    /* padding: 20px 40px; */
 }
 .header-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 20px 40px 10px;
 }
 .header-bottom{
     display: flex;
@@ -56,19 +55,39 @@ body{
     align-items: center;
     padding: 10px 40px;
 }
-
 .searchbar, .profile, .greeting{
     display: flex;
     align-items: center;
     gap: 16px;
 }
-
-
-
-
-
-
-
+#search{
+    width: 30vw;
+    padding: 10px 15px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 20px;
+}
+.profile-name, .profile-title, .hello{
+    font-weight: 600;
+}
+.profile-title{
+    font-size: 1.5rem
+}
+.hello{
+    font-size: 0.8rem;
+}
+.btn{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 0 7px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
 
 /* main */
 #main{
